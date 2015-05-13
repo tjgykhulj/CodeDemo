@@ -10,10 +10,11 @@ you can type these to execute first_try:<BR>
 
 nasm -f elf -o foo.o foo.asm<BR>
 gcc -m32 -o test.o -c test.c<BR>
-ld -m elf-i386 -o first_try foo.o test.o<BR>
+ld -m elf_i386 -o first_try foo.o test.o<BR>
 ./first_try<BR>
 <BR>
 
 <font size=4 color=blue>
-	hint: if your computer or VM is running on 32-bit, you can ignore the -m32 and -m elf-i386, they helps you compile and link 32-bit programs on 64-bit machine.
+	hint: if your computer or VM is running on 32-bit, you can ignore the -m32 and -m elf_i386;
+	they helps you compile and link 32-bit programs on 64-bit machine.
 </font>
