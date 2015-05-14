@@ -9,3 +9,4 @@ Hint:<BR>
 Built-in Function provided by GCC will replace the function in C somtimes(for optimizing, like exit()).<BR>
 And -fno-builtin can close that(in order to run test.c seccesfully)<BR>
 -e nomain: begin with nomain()<BR>
+-m32 and -m elf_i386: see first_try
