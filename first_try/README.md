@@ -2,7 +2,7 @@
 <BR>
 
 First you should confirm that you have installed nasm.<BR>
-If you don't, type (sudo apt-get install nasm)<BR><BR>
+If you don't, type : sudo apt-get install nasm<BR><BR>
 
 After you download foo.asm and test.c, <BR>
 you can type these to execute first_try:<BR>
