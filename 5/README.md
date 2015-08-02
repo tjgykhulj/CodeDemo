@@ -1,6 +1,6 @@
-<h1>The Fifth Demo<BR></h1>
-<br>
+<h1>The Fifth Demo<BR>
 动态链连(Dynamic Link)<br>
+</h1>
 gcc -fPIC -shared -o Lib.so Lib.c<br>
 (to genarate a dynamic shared object "Lib.so")<br>
 <br>
