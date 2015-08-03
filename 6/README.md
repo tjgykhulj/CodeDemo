@@ -1,5 +1,5 @@
 <h1>The Sixth Demo<BR>
-What happen if repeated function in dynamic linking <br>
+What happen if reduplicative function in dynamic linking <br>
 </h1>
 gcc -fPIC -shared a1.c -o a1.so<br>
 gcc -fPIC -shared a2.c -o a2.so<br>
