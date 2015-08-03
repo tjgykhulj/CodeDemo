@@ -1,5 +1,5 @@
 <h1>The Sixth Demo<BR>
-What happen if reduplicative function in dynamic linking <br>
+Reduplicative function in dynamic linking <br>
 </h1>
 gcc -fPIC -shared a1.c -o a1.so<br>
 gcc -fPIC -shared a2.c -o a2.so<br>
@@ -12,3 +12,5 @@ gcc main.c b1.so b2.so -o main -Xlinker -rpath ./<br>
 it will print:<br>
 a1.c<br>
 a1.c<br>
+<br>
+When dynamic link, b1.so and b2.so invoke two different "void a()". Only the first one is useful (in a1.so).
