@@ -13,4 +13,5 @@ it will print:<br>
 a1.c<br>
 a1.c<br>
 <br>
+Explain : <br>
 When dynamic link, b1.so and b2.so invoke two different "void a()". Only the first one is useful (in a1.so).
